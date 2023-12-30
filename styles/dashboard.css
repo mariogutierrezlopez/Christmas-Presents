@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-image: url('../images/navidad.jpg');
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-image: url('../images/christmas-texture.jpg');
+    background-size: 15%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.logout-button{
+    height: 30px;
+    background-color: rgb(0, 44, 10);
+    color: #fff;
+    border: 1px solid rgb(0, 44, 10);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.logout-button:hover{
+    background-color: #fff;
+    color: rgb(0, 44, 10);
+    border: 1px solid rgb(0, 44, 10);
+}
+
+header p{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 20px;
+    color: rgb(0, 92, 21);
+    border: 1px solid green;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+main{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-sizing: border-box;
+    padding: 20px;
+    height: calc(100vh-50px);
+}
+
+
+
+h1{
+    font-family: Roboto;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.formulario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+.form-title{
+    font-size: 1.8rem;
+    text-align: center;
+}
+.formulario label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 70%;
+    gap: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.formulario label input{
+    width: 100%;
+    height: 25px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 15px 10px;
+}
+
+.formulario label span i{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #000;
+
+}
+
+.formulario textarea{
+    width: 100%;
+    font-family: Roboto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.submit-pedir{
+    width: 70%;
+    height: 45px;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    cursor: pointer;
+    background-image: url('../images/red-texture.webp');
+    background-size: contain;
+}
+
+.submit-pedir{
+    width: 70%;
+    height: 45px;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    cursor: pointer;
+    background-image: url('../images/red-texture.webp');
+    background-size: contain;
+}
+
+.submit-editar{
+    width: 70%;
+    height: 45px;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    cursor: pointer;
+    background-image: url('../images/green-texture.jpg');
+    background-size: 90%;
+    background-position: center;
+    border: 1px solid rgb(0, 76, 18);
+}
+
+#current, #maximum{
+    font-size: 1rem;
+}
+
+.child-card{
+    width: 60%;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.378);
+    margin-bottom: 50px;
+}
+.child-card h3{
+    font-size: 2rem;
+    font-family: Roboto;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    /* background-color: rgb(193, 193, 193); */
+}
+.personal-data{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(193, 193, 193); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.regalos{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(193, 193, 193); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    gap: 10px;
+    padding: 20px 20px 20px 100px;
+    box-sizing: border-box;
+}
+.personal-data p img, .regalos p img, .carta img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.carta{
+    font-style: italic;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.line{
+    width: 85%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    margin: 20px auto 0px;
+}
+
+
+
